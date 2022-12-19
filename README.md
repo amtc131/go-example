@@ -36,7 +36,7 @@ we can confirm all is running fine with:
  ``
 we can then add our SQL script to stucture our DB:
 
-``
+```
 -- schema_init.up.sql
 BEGIN;
 create table users 
@@ -46,4 +46,4 @@ username varchar(255) not null,
 handle varchar(255) not null
 );
 commit;
-``
+```
